@@ -1,5 +1,5 @@
 const Foo = ({ children }) => {
-  return children('foo');
+  return children('foo'); // Invokes all child functions with the arg 'foo'
 };
 
 class App extends React.Component {
