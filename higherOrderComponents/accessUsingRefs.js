@@ -7,7 +7,7 @@ In the following example we explore how to access instance methods and the insta
 */
 
 function refsHOC(WrappedComponent) {
-  return class RefsHOC extends React.Component {
+  return class extends React.Component {
     
     // The wrapped component is provided as arg to the method
     thatMethod(wrappedComponentInstance) {
